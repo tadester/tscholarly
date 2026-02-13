@@ -12,7 +12,7 @@
     "web": "expo start --web",
     "prepare": "husky",
     "test": "jest --coverage",
-    "test:integration": "jest --testPathPattern=integration"
+    "test:integration": "jest --testPathPattern=integration --coverage=false"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx,json,md}": [

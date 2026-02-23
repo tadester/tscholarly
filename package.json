@@ -1,6 +1,7 @@
 {
   "name": "tscholarly",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.ts",
   "scripts": {
     "lint": "eslint .",
@@ -39,6 +40,7 @@
   "devDependencies": {
     "@commitlint/cli": "^20.4.1",
     "@commitlint/config-conventional": "^20.4.1",
+    "@testing-library/react-native": "^13.3.3",
     "@types/jest": "^30.0.0",
     "@types/react": "~19.1.0",
     "@typescript-eslint/eslint-plugin": "^8.55.0",
@@ -53,6 +55,7 @@
     "jest-expo": "^54.0.17",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.1",
+    "react-test-renderer": "^19.1.0",
     "ts-jest": "^29.4.6",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.55.0"

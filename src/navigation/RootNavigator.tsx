@@ -16,7 +16,7 @@ export default function RootNavigator() {
           alignItems: 'center',
         }}
       >
-        <ActivityIndicator size="large" />
+        <ActivityIndicator size="large" testID="loading-indicator" />
       </View>
     );
   }
